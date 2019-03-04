@@ -11,7 +11,6 @@ namespace ExpenseTracker.API.Controllers
     [RoutePrefix("api")]
     public class ExpensesController : ApiController
     {
-        //test comment
         IExpenseTrackerRepository _repository;
         ExpenseFactory _expenseFactory = new ExpenseFactory();
 
